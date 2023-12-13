@@ -17,7 +17,7 @@
 # 安装
 
 ```shell
-$ go get -u github.com/qwxingzhe/go-object-storage
+$ go get -u github.com/fuguowei93/go-object-storage
 ```
 
 # 使用指南
