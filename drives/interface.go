@@ -7,7 +7,7 @@ import (
 	"path"
 	"strings"
 
-	gofiletype "github.com/fuguowei93/go-file-type"
+	gofiletype "github.com/qwxingzhe/go-file-type"
 )
 
 type ObjectStorageDrive interface {
