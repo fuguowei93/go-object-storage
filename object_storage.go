@@ -5,7 +5,7 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/qwxingzhe/go-object-storage/drives"
+	"github.com/fuguowei93/go-object-storage/drives"
 )
 
 type ObjectStorage struct {
