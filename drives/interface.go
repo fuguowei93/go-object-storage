@@ -11,7 +11,7 @@ import (
 )
 
 type ObjectStorageDrive interface {
-	// PutFile 上传本地文件
+	// PutFile 上传本地文件122
 	PutFile(localFilePath string, key string) error
 	// PutContent 上传字符串到对象存储
 	PutContent(fileInfo FileInfo, key string) error
