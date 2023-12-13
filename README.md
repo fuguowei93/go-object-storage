@@ -1,12 +1,12 @@
 # go-object-storage
 
-[![Godoc](http://img.shields.io/badge/godoc-reference-blue.svg?style=flat)](https://godoc.org/github.com/qwxingzhe/go-object-storage)
-[![Build Status](https://travis-ci.org/qwxingzhe/go-object-storage.svg)](https://travis-ci.org/qwxingzhe/go-object-storage)
-[![GitHub release](http://img.shields.io/github/release/qwxingzhe/go-object-storage.svg?style=flat-square)](release)
+[![Godoc](http://img.shields.io/badge/godoc-reference-blue.svg?style=flat)](https://godoc.org/github.com/fuguowei93/go-object-storage)
+[![Build Status](https://travis-ci.org/fuguowei93/go-object-storage.svg)](https://travis-ci.org/fuguowei93/go-object-storage)
+[![GitHub release](http://img.shields.io/github/release/fuguowei93/go-object-storage.svg?style=flat-square)](release)
 [![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](license)
-[![Commit activity](https://img.shields.io/github/commit-activity/m/qwxingzhe/go-object-storage)](https://github.com/qwxingzhe/go-object-storage/graphs/commit-activity)
-[![Average time to resolve an issue](http://isitmaintained.com/badge/resolution/qwxingzhe/go-object-storage.svg)](http://isitmaintained.com/project/qwxingzhe/go-object-storage "Average time to resolve an issue")
-[![Percentage of issues still open](http://isitmaintained.com/badge/open/qwxingzhe/go-object-storage.svg)](http://isitmaintained.com/project/qwxingzhe/go-object-storage "Percentage of issues still open")
+[![Commit activity](https://img.shields.io/github/commit-activity/m/fuguowei93/go-object-storage)](https://github.com/fuguowei93/go-object-storage/graphs/commit-activity)
+[![Average time to resolve an issue](http://isitmaintained.com/badge/resolution/fuguowei93/go-object-storage.svg)](http://isitmaintained.com/project/fuguowei93/go-object-storage "Average time to resolve an issue")
+[![Percentage of issues still open](http://isitmaintained.com/badge/open/fuguowei93/go-object-storage.svg)](http://isitmaintained.com/project/fuguowei93/go-object-storage "Percentage of issues still open")
 
 
 
@@ -29,9 +29,9 @@ package main
 
 import (
 	"fmt"
-	objectstorage "github.com/qwxingzhe/go-object-storage"
-	objectstoragedrives "github.com/qwxingzhe/go-object-storage/drives"
-	"github.com/qwxingzhe/go-package-demo/config"
+	objectstorage "github.com/fuguowei93/go-object-storage"
+	objectstoragedrives "github.com/fuguowei93/go-object-storage/drives"
+	"github.com/fuguowei93/go-package-demo/config"
 )
 
 // 配置存储引擎
