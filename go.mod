@@ -1,10 +1,10 @@
-module github.com/qwxingzhe/go-object-storage
+module github.com/fuguowei93/go-object-storage
 
 go 1.17
 
 require (
 	github.com/qiniu/go-sdk/v7 v7.9.8
-	github.com/qwxingzhe/go-file-type v0.0.0-20210904033909-9eb7f61e24f1
+	github.com/fuguowei93/go-file-type v0.0.0-20210904033909-9eb7f61e24f1
 )
 
 require (
