@@ -2,7 +2,7 @@ package go_object_storage
 
 import (
 	"fmt"
-	"github.com/qwxingzhe/go-object-storage/drives"
+	"github.com/fuguowei93/go-object-storage/drives"
 	"testing"
 )
 
