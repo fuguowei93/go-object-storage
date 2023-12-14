@@ -1,11 +1,12 @@
 package go_object_storage
 
 import (
+	"fmt"
 	"mime/multipart"
 	"time"
 
-	"github.com/google/uuid"
 	"github.com/fuguowei93/go-object-storage/drives"
+	"github.com/google/uuid"
 )
 
 type ObjectStorage struct {
@@ -50,6 +51,7 @@ func (receiver *ObjectStorage) getFilePath(fileInfo drives.FileInfo) string {
 	if receiver.FilePathPrefix != "" { // 拼接文件前缀
 		receiver.FilePathKey = receiver.FilePathPrefix + receiver.FilePathKey
 	}
+	fmt.Println("receiver.FilePathKey:", receiver.FilePathKey)
 	return receiver.FilePathKey
 }
 
@@ -80,7 +82,7 @@ func (receiver *ObjectStorage) SetFilePath(filePathKey string) *ObjectStorage {
 }
 
 // 执行不同类型的文件上传
-//+------------------------------------------------------------------------------------------
+// +------------------------------------------------------------------------------------------
 // PutFileByFileInfo 通过自行构建FileInfo上传
 func (receiver *ObjectStorage) PutFileByFileInfo(fileInfo drives.FileInfo) (UploadFileInfo, error) {
 	// 获取文件存储路径
